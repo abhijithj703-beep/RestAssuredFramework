@@ -69,7 +69,7 @@ public class StepDefinition extends Utils{
 		// Write code here that turns the phrase above into concrete actions
 		
 		String actualValue=getJsonPath(response, key);
-		System.out.println(actualValue);
+		
 		
 		assertEquals(actualValue,expectedValue);
 
